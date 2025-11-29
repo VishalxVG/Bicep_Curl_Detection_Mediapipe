@@ -108,7 +108,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
         cv2.putText(
             image,
             "REPS",
-            (15, 12),
+            (15, 12),  # Coordinates (x , y) x from top , y from left
             cv2.FONT_HERSHEY_SIMPLEX,
             0.5,
             (0, 0, 0),
